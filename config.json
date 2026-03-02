@@ -33,21 +33,21 @@
     }
   },
   "configurationArguments": {
-    "applicationExtensionKey": "PEGAR_AQUI_APP_EXTENSION_KEY",
+    "applicationExtensionKey": "521487df-53c6-478a-8c8b-7b0f344dd99e",
     "save": {
-      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "url": "https://script.google.com/macros/s/AKfycby5kCTNK_EyByhC7zzxun5ZVkHee4Ns-jLRE8nJwrbffYCGmvY4RM0GCWhudof8aFZp5w/exec",
       "verb": "POST"
     },
     "publish": {
-      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "url": "https://script.google.com/macros/s/AKfycby5kCTNK_EyByhC7zzxun5ZVkHee4Ns-jLRE8nJwrbffYCGmvY4RM0GCWhudof8aFZp5w/exec",
       "verb": "POST"
     },
     "validate": {
-      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "url": "https://script.google.com/macros/s/AKfycby5kCTNK_EyByhC7zzxun5ZVkHee4Ns-jLRE8nJwrbffYCGmvY4RM0GCWhudof8aFZp5w/exec",
       "verb": "POST"
     },
     "stop": {
-      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "url": "https://script.google.com/macros/s/AKfycby5kCTNK_EyByhC7zzxun5ZVkHee4Ns-jLRE8nJwrbffYCGmvY4RM0GCWhudof8aFZp5w/exec",
       "verb": "POST"
     }
   },
@@ -63,7 +63,7 @@
       "height": 420,
       "width": 480,
       "fullscreen": false,
-      "url": "PEGAR_AQUI_URL_GITHUB_PAGES/index.html"
+      "url": "https://diegovargascolorado.github.io/Diego/"
     }
   }
 }
