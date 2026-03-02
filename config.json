@@ -21,7 +21,7 @@
         { "journeyName": "{{Journey.Name}}" }
       ],
       "outArguments": [],
-      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "url": "https://script.google.com/macros/s/AKfycby5kCTNK_EyByhC7zzxun5ZVkHee4Ns-jLRE8nJwrbffYCGmvY4RM0GCWhudof8aFZp5w/exec",
       "verb": "POST",
       "body": "",
       "header": "",
