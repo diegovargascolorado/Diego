@@ -1,0 +1,69 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico",
+    "category": "custom",
+    "isConfigured": false
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "Guardar en Google Sheets",
+      "description": "Registra los datos del contacto en una hoja de Google Sheets"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [
+        { "contactKey":  "{{Contact.Key}}" },
+        { "email":       "{{InteractionDefaults.Email}}" },
+        { "firstName":   "{{InteractionDefaults.FirstName}}" },
+        { "journeyName": "{{Journey.Name}}" }
+      ],
+      "outArguments": [],
+      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "verb": "POST",
+      "body": "",
+      "header": "",
+      "format": "json",
+      "useJwt": false,
+      "timeout": 15000,
+      "retryCount": 2,
+      "retryDelay": 5000
+    }
+  },
+  "configurationArguments": {
+    "applicationExtensionKey": "PEGAR_AQUI_APP_EXTENSION_KEY",
+    "save": {
+      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "verb": "POST"
+    },
+    "publish": {
+      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "verb": "POST"
+    },
+    "validate": {
+      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "verb": "POST"
+    },
+    "stop": {
+      "url": "PEGAR_AQUI_URL_APPS_SCRIPT",
+      "verb": "POST"
+    }
+  },
+  "wizardSteps": [
+    {
+      "label": "Configuración",
+      "key": "step1",
+      "active": true
+    }
+  ],
+  "userInterfaces": {
+    "configModal": {
+      "height": 420,
+      "width": 480,
+      "fullscreen": false,
+      "url": "PEGAR_AQUI_URL_GITHUB_PAGES/index.html"
+    }
+  }
+}
